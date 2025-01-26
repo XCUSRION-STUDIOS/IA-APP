@@ -1,1 +1,9 @@
 https://tailwindcss.com/docs/installation/using-vite
+
+
+  // "scripts": {
+  //   "dev": "vite",
+  //   "build": "tsc -b && vite build",
+  //   "lint": "eslint .",
+  //   "preview": "vite preview"
+  // },
