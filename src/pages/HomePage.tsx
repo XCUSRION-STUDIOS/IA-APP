@@ -48,6 +48,8 @@
 //   );
 // }
 
+// npm run dev
+
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import backgroundImage from '../assets/darkimg2.png';
 import Logo from '../assets/xcursionlogo.png';
