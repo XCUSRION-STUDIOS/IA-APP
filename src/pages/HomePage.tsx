@@ -78,19 +78,19 @@ export default function HomePage() {
       </div>
 
       {/* Buttons Section */}
-      <div className="mt-[45vh] flex flex-col items-center gap-3 text-white">
+      <div className="mt-[45vh] flex flex-col items-center gap-3 text-white text-[1.15em]">
         <Link to="/new-character">
-          <button className="w-60 bg-white/2 backdrop-blur-[2px] font-bold px-4 py-2 rounded-full transition duration-300 shadow-md hover:scale-105 active:scale-98">
+          <button className=" text-white w-60 bg-white/2 backdrop-blur-[2px] font-bold px-4 py-2 rounded-full transition duration-300 shadow-md hover:scale-105 active:scale-98">
             NEW CHARACTER
           </button>
         </Link>
         <Link to="/load-character">
-          <button className="w-60 bg-white/2 backdrop-blur-[2px] font-bold px-4 py-2 rounded-full transition duration-300 shadow-md hover:scale-105 active:scale-98">
+          <button className=" text-white w-60 bg-white/2 backdrop-blur-[2px] font-bold px-4 py-2 rounded-full transition duration-300 shadow-md hover:scale-105 active:scale-98">
             LOAD CHARACTER
           </button>
         </Link>
         <Link to="/settings">
-          <button className="w-60 bg-white/2 backdrop-blur-[2px] font-bold px-4 py-2 rounded-full transition duration-300 shadow-md hover:scale-105 active:scale-98">
+          <button className=" text-white w-60 bg-white/2 backdrop-blur-[2px] font-bold px-4 py-2 rounded-full transition duration-300 shadow-md hover:scale-105 active:scale-98">
             SETTINGS
           </button>
         </Link>
