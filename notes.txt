@@ -7,3 +7,9 @@ https://tailwindcss.com/docs/installation/using-vite
   //   "lint": "eslint .",
   //   "preview": "vite preview"
   // },
+
+
+git checkout master
+git pull origin master
+git merge test
+git push origin master
