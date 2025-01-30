@@ -17,10 +17,10 @@ interface Character {
   emotional: string;
 }
 
-const handleClearData = () => {
-  localStorage.removeItem("characters");
-  alert("Character data has been cleared.");
-};
+// const handleClearData = () => {
+//   localStorage.removeItem("characters");
+//   alert("Character data has been cleared.");
+// };
 
 export default function LoadCharacter() {
   const [storedCharacters, setStoredCharacters] = useState<Character[]>([]);
@@ -114,12 +114,12 @@ export default function LoadCharacter() {
         </button>
       </Link>
 
-      <button
+      {/* <button
         onClick={handleClearData}
         className="w-45 mt-5 px-6 py-2 text-base text-black bg-white rounded-full hover:bg-gray-300 transition"
       >
         Clear Data
-      </button>
+      </button> */}
 
       <div className="absolute bottom-4 text-white opacity-70 text-sm">
         <p className="font-[Metropolis]">www.url.com</p>
